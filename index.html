@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Canchas Deportivas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Reserva de Canchas Deportivas</h1>
+        <p>Reserva tu cancha de manera rápida y sencilla</p>
+    </header>
+
+    <main>
+        <section class="reservas">
+            <h2>Reservar una cancha</h2>
+
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+                <label for="cancha">Tipo de cancha:</label>
+                <select id="cancha">
+                    <option value="">Selecciona una cancha</option>
+                    <option value="futbol">Fútbol</option>
+                    <option value="baloncesto">Baloncesto</option>
+                    <option value="tenis">Tenis</option>
+                </select>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora">
+
+                <button type="button" onclick="reservarCancha()">
+                    Reservar cancha
+                </button>
+            </form>
+
+            <div id="mensaje"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Reserva de Canchas Deportivas</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
