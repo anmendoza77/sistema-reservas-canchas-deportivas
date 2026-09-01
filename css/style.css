@@ -86,3 +86,56 @@ footer {
     background-color: #222;
     color: white;
 }
+#listaReservas {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#listaReservas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#listaReservas li button {
+    margin-top: 0;
+    padding: 6px 12px;
+    font-size: 13px;
+    background-color: #b91c1c;
+}
+
+#listaReservas li button:hover {
+    background-color: #7f1414;
+}
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    .reservas {
+        padding: 20px;
+    }
+
+    #listaReservas li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #listaReservas li button {
+        align-self: flex-end;
+    }
+}
