@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; background: #f3f4f6; margin: 0; }
+main { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+.resumen { display: flex; gap: 1rem; margin-bottom: 1rem; }
+.tarjeta { flex: 1; background: white; padding: 0.5rem 1rem; border-radius: 6px; }
+.tarjeta h3 { margin: 0; font-size: 0.8rem; color: #555; }
+.tarjeta p { margin: 0.25rem 0 0; font-size: 1.6rem; font-weight: bold; }
+form { background: white; padding: 1rem; border-radius: 6px; margin-bottom: 1rem; }
+.campo { display: flex; flex-direction: column; margin-bottom: 0.5rem; font-size: 0.9rem; }
+.campo input { padding: 0.35rem; }
+table { width: 100%; background: white; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #eee; }
+.error { background: #fde2e2; color: #a40000; padding: 0.6rem 1rem; border-radius: 6px; }
